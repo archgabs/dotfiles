@@ -1,0 +1,11 @@
+import = [
+    "~/.config/alacritty/themes/themes/ayu_dark.toml"
+]
+
+[window]
+    padding = { x = 8, y =8 }
+    opacity = 0.97
+
+[font]
+    normal = { family = "JetBrains Mono", style = "Regular" }
+    size = 10
