@@ -3,9 +3,9 @@ import = [
 ]
 
 [window]
-    padding = { x = 8, y =8 }
-    opacity = 0.97
+    padding = { x = 8, y = 8 }
+    opacity = 0.90
 
 [font]
     normal = { family = "JetBrains Mono", style = "Regular" }
-    size = 10
+    size   = 12   

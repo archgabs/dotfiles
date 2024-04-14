@@ -14,6 +14,7 @@ alias grep='grep --color=auto'
 alias install='sudo pacman -S'
 alias update='sudo pacman -Syyu'
 alias remove='sudo pacman -R'
+alias aur='yay'
 
 # Some features to navigation
 alias del='sudo rm -rf'
@@ -22,8 +23,12 @@ alias del='sudo rm -rf'
 alias bconfig='helix ~/.bashrc'
 alias qconfig='helix ~/.config/qtile/config.py'
 alias aconfig='helix ~/.config/alacritty/alacritty.toml'
+alias pconfig='sudo helix /etc/xdg/picom.conf'
 
 # Programming
-alias pinc='helix ~/Programming/Code/C'
+alias pinc='cd ~/Programming/Code/C/newchapters/'
 
-PS1='[\u@\h \W]\$ '
+# Books
+alias book='cd ~/books/programming/'
+
+PS1='Be careful, my dear \u \W\$ '
