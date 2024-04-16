@@ -1,0 +1,29 @@
+theme = "base16_transparent"
+
+[editor]
+middle-click-paste = true
+auto-save = true
+auto-completion = true
+rulers = [100]
+line-number = "relative"
+
+[editor.statusline]
+mode.normal = "*Normal*"
+mode.insert = "*Insert*"
+mode.select = "*Select*"
+
+[editor.lsp]
+enable = true
+snippets = true
+
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "bar"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.file-picker]
+hidden = false
+max-depth = 5
