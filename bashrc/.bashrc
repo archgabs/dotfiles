@@ -26,9 +26,10 @@ alias aconfig='helix ~/.config/alacritty/alacritty.toml'
 alias pconfig='sudo helix /etc/xdg/picom.conf'
 
 # Programming
-alias pinc='cd ~/Programming/Code/C/newchapters/'
+alias helc='cd ~/Documents/GitHub/learning-c/Chapter\ 01\ -\ A\ Tutorial\ Introduction/'
 
 # Books
 alias book='cd ~/books/programming/'
+alias bmath='cd ~/enem/matematica'
 
-PS1='Be careful, my dear \u \W\$ '
+PS1='Be careful, my dear \u \W\ || '
