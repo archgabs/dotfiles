@@ -9,10 +9,10 @@
  
  ## Requirements
  
- 4. Qtile
- 5. Kitty / Alacritty
- 6. Picom
- 7. JetBrains Mono
+ - Qtile
+ -  Kitty / Alacritty
+ -   Picom
+ -   JetBrains Mono
  
  # Install Process
  
