@@ -11,3 +11,10 @@ solarized = {
     "light": "#77B0AA",
     "extraLight": "E3FEF7",
 }
+
+gruvbox = {
+    "dark": "#242424",
+    "medium": "#32302F",
+    "light": "#E7D7AD",
+    "extraLight": "#665C54",
+}

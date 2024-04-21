@@ -29,6 +29,8 @@ keyboardChange = Key([mod], "k", lazy.widget['keyboardlayout'].next_keyboard(), 
 
 defaultKeybindings = [
     # -> Important:
+    Key([mod], "m", lazy.layout.grow()),
+    Key([mod], "n", lazy.layout.shrink()),
     Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
@@ -47,7 +49,6 @@ defaultKeybindings = [
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
 
-    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
 
     Key(
         [mod, "shift"],

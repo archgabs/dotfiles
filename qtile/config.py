@@ -6,7 +6,7 @@ from libqtile.utils import guess_terminal
 from source.keybindings import returnKeys
 from source.labels import returnLabels
 from source.screenHandler import returnScreen
-from source.colors import solarized
+from source.colors import solarized, gruvbox
 
 import os, subprocess
 
@@ -47,8 +47,9 @@ screens = [*returnScreen()]
 keys = [*returnKeys()]
 groups = [*returnLabels()]
 layouts = [layout.MonadTall(
-    border_focus=solarized['light'],
-    border_width=6,
+    border_focus=gruvbox['light'],
+    border_normal=gruvbox['medium'],
+    border_width=4,
     single_margin=8, margin=4
 )]
 initGroups()
@@ -76,8 +77,8 @@ bring_front_click = False
 floats_kept_above = True
 cursor_warp = False
 floating_layout = layout.Floating(
-    border_focus=solarized['light'],
-    border_width=6,
+    border_focus=gruvbox['light'],
+    border_width=4,
     single_margin=8, margin=4,
     float_rules=[
         *layout.Floating.default_float_rules,
