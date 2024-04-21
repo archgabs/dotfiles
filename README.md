@@ -1,5 +1,7 @@
 <h1 align=left>Dotfiles - Qtile </h1>
-<img src="https://i.imgur.com/h51lrq1.jpeg">
+<img src="https://i.imgur.com/DfdgHFV.jpeg">
+
+
 
 ## Who should use this repository
 
