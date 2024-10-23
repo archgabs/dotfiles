@@ -5,6 +5,7 @@
 
 ## Who should use this repository
 
+ 
  1. Any Linux user that doesn't have the time to configure a entire window manager to their needs;
  2. Anyone who doesn't have the knowledge, although i don't recommend it;
  3. Whoever have good taste :).
